@@ -1,0 +1,84 @@
+/* adding grid on body */
+.timeLineBody {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	line-height: 1.5em;
+}
+
+/* ------ */
+
+/* vertical timeline items */
+.verticalLine {
+	border-left: 3px solid lightgrey;
+	height: 100%;
+	margin-left: -105px;
+	padding-left: 79px;
+	top: 52%;
+}
+
+.entry .title:before {
+	top: 90% !important;
+	left: 182px !important;
+	margin-left: 0.4em;
+}
+
+.timeline-item-date {
+	top: 10px !important;
+	left: 92px !important;
+}
+/* ---- */
+
+/* sections */
+
+#sections {
+	width: 85%;
+	margin-top: 5%;
+}
+
+#storyLinePictures {
+	box-shadow: 7px 16px 15px grey;
+	width: 100%;
+	height: 15em;
+}
+/* ---- */
+
+@media screen and (max-width: 768px) {
+	/* Time line */
+
+	.timeLineBody {
+		display: grid;
+		grid-template-columns: 200px 1fr;
+	}
+	.verticalLine {
+		display: flex !important;
+		width: 100%;
+		padding: 1em;
+		margin: 1em;
+	}
+	.timeline--wrapper {
+		width: 100% !important;
+		margin: -2em !important;
+	}
+	.entry {
+		width: 100% !important;
+		right: 30%;
+	}
+
+	.entry .title:before {
+		margin-left: 63%;
+	}
+
+	.timeLinePræstgarnHouse {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.timeLinePictures {
+		width: 100%;
+	}
+	#sections {
+		width: 100%;
+	}
+	.story {
+		width: 100%;
+	}
+}

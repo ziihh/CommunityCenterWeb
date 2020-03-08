@@ -1,0 +1,220 @@
+.galcontainer {
+  padding: 0;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin: auto;
+  grid-gap: 10px;
+  padding-left: 25%;
+}
+.galcontainer .main-title {
+  color: #2d2d2d;
+  text-align: center;
+  grid-column: 1/3;
+}
+
+@media screen and (max-width: 960px) {
+  .galcontainer {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .toggle {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  .content-details h3 {
+    color: #fff;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+.galcontent {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.galcontent img {
+  max-width: 500px;
+  max-height: 500px;
+}
+.galcontent .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+/*	Code for image overlay adapdet from https://codepen.io/ArnaudBalland/pen/vGZKLr */
+.galcontent:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.galcontent:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+.content-title a {
+  text-decoration: underline;
+}
+
+.toggle {
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  font-size: 1em;
+  grid-column: 1/3;
+}
+.toggle:hover {
+  cursor: pointer;
+}
+.formContainer {
+  padding: 0;
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  margin: auto;
+  grid-gap: 10px;
+  padding-left: 25%;
+}
+.formContainer .main-title {
+  color: #2d2d2d;
+  text-align: center;
+  grid-column: 1/3;
+}
+.galcontainer .Upload-Picture {
+  padding: 0.5em;
+  font-size: 1.5em;
+  grid-column: 1/3;
+  margin-top: 5%;
+  background-color: #dddddd;
+  text-align: center;
+  color: #2d2d2d;
+  text-decoration: underline;
+}
+.galcontainer .Upload-Picture:hover {
+  cursor: pointer;
+}
+.formContainer h1 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+}
+.formContainer p {
+  color: #2d2d2d;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  grid-column: 1/3;
+}
+.formContainer .uploadimg {
+  margin-top: 5%;
+  text-align: center;
+  color: #2d2d2d;
+  grid-column: 1/3;
+}
+.Dato {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+.formContainer input[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  font-size: 1em;
+}
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #ccc;
+  overflow: auto;
+}
+
+.MOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2d2d2d;
+}
+.close-cursor {
+  font-size: 2em;
+  float: right;
+  margin-right: 1em;
+}
+.close-cursor:hover {
+  cursor: pointer;
+}
+.Modal img {
+  max-width: 100%;
+}

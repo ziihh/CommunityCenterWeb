@@ -1,0 +1,72 @@
+.homePageBanner {
+  text-align: center;
+}
+
+#homeBanner {
+  width: 50%;
+  height: 300px;
+}
+
+.aboutUs {
+  text-align: left;
+  width: 70%;
+  height: 50%;
+  position: relative;
+  padding-top: 2em;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+a {
+  color: #2a8b9d;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #2a8b9d;
+}
+
+#readMore {
+  font-weight: bold;
+}
+
+.præstgarnHouse {
+  float: right;
+  margin-left: 10px;
+  width: 45%;
+  box-shadow: 10px 10px 15px grey;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutUs {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .homePageAoutUsHeader {
+    text-align: center;
+  }
+
+  .præstgarnHouse {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  #homeBanner {
+    height: 200px;
+    width: 100%;
+    padding: 1em;
+  }
+}

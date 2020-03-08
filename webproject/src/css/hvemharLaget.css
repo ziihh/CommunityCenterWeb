@@ -1,0 +1,44 @@
+p,
+h1,
+h2,
+h3,
+div {
+  font-family: Calibri;
+}
+
+.sideMargin {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.grid_img {
+  padding-bottom: 4%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+/* This is text for partner page */
+.større {
+  font-size: 30px;
+  color: rgb(94, 21, 44);
+  padding-right: 0.3%;
+}
+
+#textpartner {
+  font-size: 20px;
+  float: left;
+}
+
+#kontaktOverskrift {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+/* This is text for partner page */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}

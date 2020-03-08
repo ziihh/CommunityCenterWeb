@@ -1,0 +1,56 @@
+/* Grid styling */
+.bookingimage,
+.booking-container {
+	margin: 0 14% 0 14%;
+}
+
+.booking-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-column-gap: 45px;
+	grid-row-gap: 45px;
+}
+
+.bookingimage > img {
+	object-fit: cover;
+	width: 100%;
+	max-height: none;
+}
+
+.inputs {
+	display: grid;
+}
+
+.inputs label[for="fname"] {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.inputs input[type="text"],
+[type="textarea"],
+select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+.inputs label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+.inputs input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+.inputs input[type="submit"]:hover {
+	background-color: #45a049;
+}

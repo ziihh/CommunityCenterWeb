@@ -1,0 +1,84 @@
+.head {
+	text-align: center;
+}
+#logo {
+	display: block;
+	margin: auto;
+	padding: 2em;
+}
+
+#username[name="username"],
+#password[name="password"],
+.loginButton[type="submit"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.loginButton[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.form_fields {
+	padding: 2em;
+	padding-bottom: 4em;
+	border: 2px solid;
+	margin: 0 auto;
+	width: 30%;
+	box-shadow: 5px 5px 10px #ccc;
+}
+
+.loginButton:hover {
+	opacity: 0.8;
+}
+
+.usernameField {
+	font-weight: bold;
+}
+.passwordField {
+	font-weight: bold;
+}
+#form_heading {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.form_fields {
+		padding: 2em;
+		padding-bottom: 4em;
+		border: 2px solid;
+		margin: 0 auto;
+		width: 50%;
+		box-shadow: 5px 5px 10px #ccc;
+	}
+
+	#username[name="username"],
+	#password[name="password"],
+	.loginButton[type="submit"] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	.homePageAoutUsHeader {
+		text-align: center;
+	}
+	.præstgarnHouse {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	#homeBanner {
+		height: 200px;
+		width: 100%;
+		padding: 1em;
+	}
+}

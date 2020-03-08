@@ -1,0 +1,82 @@
+.event-header {
+  text-align: center;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+  margin: 30px 14% 0 14%;
+}
+
+.event-box {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  background-color: #e3e3e3;
+  grid-column-gap: 20px;
+  border-radius: 0 0 10px 0;
+  box-shadow: 2px 2px 15px -7px rgba(0, 0, 0, 0.6);
+}
+
+.event-box img {
+  max-width: 100%;
+	max-height: 100%;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  height: fit-content;
+  object-fit: cover;
+}
+
+.event-box h1, p {
+  grid-column: 2;
+}
+
+.event-button {
+  justify-self: end;
+  background-color: #268092;
+  border: none;
+  color: white;
+  padding: 1em;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.event-button:hover {
+  background-color: #1e626e;
+}
+
+.event-date {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* CSS Backoffice */
+
+.preview-box {
+  display: grid;
+  max-width: 500px;
+  grid-template-columns: 0.9fr 1.1fr;
+  background-color: #e3e3e3;
+  grid-column-gap: 20px;
+  border-radius: 0 0 10px 0;
+  box-shadow: 2px 2px 15px -7px rgba(0, 0, 0, 0.6);
+}
+
+.preview-box img {
+  max-width: 100%;
+	max-height: 100%;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  height: fit-content;
+  object-fit: cover;
+}
+
+.preview-box h1, p {
+  grid-column: 2;
+}

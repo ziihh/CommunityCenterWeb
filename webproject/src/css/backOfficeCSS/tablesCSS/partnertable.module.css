@@ -1,0 +1,59 @@
+.editpartner {
+  display: grid;
+  grid-template-columns: auto 540px;
+  float: right;
+}
+.partnerTables {
+  width: 40%;
+  margin: 1em;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 2px 3px 24px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 24px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 24px -2px rgba(0, 0, 0, 0.75);
+}
+.inputs {
+  padding: 1em;
+  display: grid;
+}
+
+#partnerHeading {
+  padding-top: 1em;
+  text-align: center;
+}
+.storyBox {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.inputs input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.inputs input[type="file"] {
+  width: 100%;
+  padding: 12px 3px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.inputs input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.inputs input[type="date"]::-webkit-calendar-picker-indicator {
+  display: block;
+}

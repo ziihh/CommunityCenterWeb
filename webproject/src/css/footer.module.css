@@ -1,0 +1,131 @@
+p,
+h1,
+h2,
+h3,
+div {
+	font-family: Calibri;
+}
+
+#textfooter2 {
+	color: white;
+}
+
+.sideMargin {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.grid_img {
+	padding-bottom: 4%;
+	max-width: 100%;
+	max-height: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* This is text for footer page */
+.større2 {
+	font-size: 30px;
+	padding-right: 0.3%;
+	color: white;
+}
+
+#textfooter {
+	font-size: 20px;
+	float: left;
+}
+
+/* This is text for footer page */
+
+figcaption {
+	text-align: right;
+}
+
+figure {
+	float: right;
+	margin-right: auto;
+}
+
+#bilde {
+	float: right;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.kontaktogBilde {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/*
+*
+*
+*
+*/
+
+.footer-header {
+	text-align: center;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+	grid-column-gap: 45px;
+	grid-row-gap: 45px;
+	margin: 30px 14% 0 14%;
+}
+
+.footer-box {
+	display: grid;
+}
+
+.footer-box img {
+	max-width: 100%;
+	max-height: 300px;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	height: fit-content;
+	object-fit: cover;
+}
+
+.footer-box h1,
+p {
+	grid-column: 2;
+}
+
+.footer-button {
+	justify-self: end;
+	background-color: #268092;
+	border: none;
+	color: white;
+	padding: 1em;
+	width: 150px;
+	border-radius: 10px;
+	font-size: 12px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-button:hover {
+	background-color: #1e626e;
+}
+
+.footer-date {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* CSS Backoffice */
+
+.preview-box {
+	display: grid;
+}
+
+.preview-box img {
+	max-height: 300px;
+	max-width: 300px;
+}

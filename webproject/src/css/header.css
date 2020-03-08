@@ -1,0 +1,13 @@
+.logo {
+  display: block;
+  margin: auto;
+  padding: 2em;
+  width: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    text-align: center;
+    width: 50%;
+  }
+}

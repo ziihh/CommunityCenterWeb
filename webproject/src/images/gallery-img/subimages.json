@@ -1,0 +1,67 @@
+{
+	"properties": [
+		{
+			"category": "Prestgarn",
+      "subcategory": 0,
+			"title": "1",
+			"picture": "city.jpg",
+			"alt":"Lorem ipsum"
+		},
+    {
+      "category": "Prestgarn",
+      "subcategory": 1,
+      "title": "2",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+    {
+      "category":"Arrangementer",
+      "subcategory": 2,
+      "title": "3",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+    {
+      "category":"Prestgarn",
+      "subcategory": 3,
+      "title": "4",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+    {
+      "category": "Arrangementer",
+      "subcategory": 4,
+      "title": "5",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+    {
+      "category": "Arrangementer",
+      "subcategory": 5,
+      "title": "6",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+    {
+      "category": "Bildebank",
+      "subcategory": 6,
+      "title": "7",
+      "picture": "city.jpg",
+      "alt":"Lorem ipsum"
+    },
+		{
+			"category":"Bildebank",
+			"subcategory": 7,
+			"title": "7",
+			"picture": "city.jpg",
+			"alt":"Lorem ipsum"
+		},
+		{
+			"category":"Bildebank",
+			"subcategory": 8,
+			"title": "7",
+			"picture": "city.jpg",
+			"alt":"Lorem ipsum"
+		}
+	]
+}

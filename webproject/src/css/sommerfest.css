@@ -1,0 +1,204 @@
+/*desktop */
+@media only screen and (min-width: 768px) {
+	.kommende_events {
+		text-align: center;
+		padding-top: 2em;
+	}
+
+	.grid_img {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 1%;
+	}
+
+	.grid_info {
+		text-align: center;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.p_generelinfo {
+		line-height: 1.8;
+	}
+
+	.grid_midcontent {
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		padding: 2em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-column-gap: 15em;
+	}
+
+	.p_partnerinfo {
+		line-height: 1.8;
+	}
+
+	.container_form {
+		padding: 2.2em;
+		background-color: rgba(196, 196, 196, 0.1);
+		border-style: solid;
+		border-width: 2px;
+		border-color: #2a8b9d;
+	}
+
+	.grid_upcommingevent {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-column-gap: 2em;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.container_event {
+		background-color: #e3e3e3;
+	}
+
+	.event1 {
+		text-align: left;
+		padding: 1em;
+	}
+	.event2 {
+		text-align: left;
+		padding: 1em;
+	}
+
+	.denblindekulogo {
+		border-radius: 50%;
+	}
+
+	.eventbilde {
+		height: 300px;
+		width: 100%;
+	}
+
+	.button_form[type="submit"] {
+		margin-top: 0.5em;
+		float: right;
+		background-color: #2a8b9d;
+		border: none;
+		border-radius: 1em;
+		color: white;
+		padding: 1em;
+		width: 35%;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.button_form:hover {
+		background-color: #73cbaf;
+		color: white;
+	}
+
+	.button_event {
+		margin-right: 15px;
+		background-color: #2a8b9d;
+		border: none;
+		color: white;
+		padding: 1em;
+		width: 25%;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.button_event:hover {
+		background-color: #73cbaf;
+		color: white;
+	}
+
+	.info-button {
+		width: 100%;
+		background-color: #e3e3e3;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	/*mobile*/
+
+	.eventimg {
+		width: 100%;
+	}
+
+	.denblindekulogo {
+		border-radius: 50%;
+	}
+
+	.grid_info {
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		padding-top: 1em;
+		line-height: 1.8;
+		margin: 1em;
+	}
+
+	.grid_midcontent {
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		padding-top: 1em;
+		line-height: 1.8;
+		margin: 1em;
+	}
+
+	.button_form[type="submit"] {
+		margin-top: 0.5em;
+		float: none;
+		background-color: #2a8b9d;
+		border: none;
+		border-radius: 1em;
+		color: white;
+		padding: 1em;
+		width: 30%;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.kommende_events {
+		text-align: center;
+		background-color: #e3e3e3;
+	}
+
+	.arrangementer {
+		padding: 1em;
+	}
+
+	.container_event {
+		background-color: #e3e3e3;
+	}
+
+	.button_event {
+		background-color: #2a8b9d;
+		border: none;
+		color: white;
+		padding: 1em;
+		margin: 1em;
+		margin-bottom: 1.5em;
+		width: 25%;
+		text-align: center;
+		border-radius: 1em;
+	}
+
+	.info_event {
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		padding-top: 1em;
+		line-height: 1.8;
+		margin: 1em;
+	}
+
+	.eventbilde {
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+}
