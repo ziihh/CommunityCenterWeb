@@ -50,10 +50,6 @@ The group implemented the Admin panel and Content mangement system. There is no 
 
 - Admin to login navigate to http://localhost:3000/admin
 
-Admin User info: ```hans```
-Admin Password : ```123456789```
-
-
 ## Backoffice
 
 After admin log-in he/she will be redirect to following url
